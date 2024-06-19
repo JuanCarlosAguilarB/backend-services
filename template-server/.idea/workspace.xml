@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f33a0ac5-3322-47f5-9580-4a0750d257e1" name="Changes" comment="chore: added readme" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="example-hexagonal" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2i01W3VeE2rM4P5qIVm6nMhShP4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build template-server.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.HexagonalArchitectureApplication.executor": "Run",
+    "Spring Boot.UserServerApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/juan/projects/pruebas-tecnicas/backend-services/hexagonal-arquitecture",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.HexagonalArchitectureApplication">
+    <configuration name="HexagonalArchitectureApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="example-hexagonal.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.hexagonal.HexagonalArchitectureApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="com.user-server.user-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.userserver.UserServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f33a0ac5-3322-47f5-9580-4a0750d257e1" name="Changes" comment="" />
+      <created>1718612708509</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718612708509</updated>
+      <workItem from="1718612709537" duration="17408000" />
+      <workItem from="1718781973595" duration="988000" />
+      <workItem from="1718832692116" duration="147000" />
+    </task>
+    <task id="LOCAL-00001" summary="chore: create first project. Generic example of hexagonal architecture with spring boot.">
+      <option name="closed" value="true" />
+      <created>1718615619859</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718615619859</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: create task model.">
+      <option name="closed" value="true" />
+      <created>1718684084037</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718684084037</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: create model for aditional taks info: AdditionalTaskInfo.">
+      <option name="closed" value="true" />
+      <created>1718684110157</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718684110157</updated>
+    </task>
+    <task id="LOCAL-00004" summary="chore: create input port in models for create task: CreateTask.">
+      <option name="closed" value="true" />
+      <created>1718685231490</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718685231490</updated>
+    </task>
+    <task id="LOCAL-00005" summary="chore: create input port in models for delete a task: DeleteTask.">
+      <option name="closed" value="true" />
+      <created>1718685245954</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718685245954</updated>
+    </task>
+    <task id="LOCAL-00006" summary="chore: create input port in models for retrive a task: RetriveTask.">
+      <option name="closed" value="true" />
+      <created>1718685273765</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718685273765</updated>
+    </task>
+    <task id="LOCAL-00007" summary="chore: create input port in models for update a task: UpdateTask.">
+      <option name="closed" value="true" />
+      <created>1718685287054</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718685287054</updated>
+    </task>
+    <task id="LOCAL-00008" summary="chore: create input port in models for retrive an additional info of task: RetriveAdditionalTaskInfo.">
+      <option name="closed" value="true" />
+      <created>1718685309510</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718685309510</updated>
+    </task>
+    <task id="LOCAL-00009" summary="chore: create output port in models for repository of Task.">
+      <option name="closed" value="true" />
+      <created>1718685656633</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718685656633</updated>
+    </task>
+    <task id="LOCAL-00010" summary="chore: create output port in models, create repository of Task.">
+      <option name="closed" value="true" />
+      <created>1718685695843</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718685695843</updated>
+    </task>
+    <task id="LOCAL-00011" summary="chore: create output port in models, create repository of AdditionalTaskInfo.">
+      <option name="closed" value="true" />
+      <created>1718685712840</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718685712840</updated>
+    </task>
+    <task id="LOCAL-00012" summary="chore: change port of application to 8080">
+      <option name="closed" value="true" />
+      <created>1718693387024</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1718693387024</updated>
+    </task>
+    <task id="LOCAL-00013" summary="chore: added builder support by lombok">
+      <option name="closed" value="true" />
+      <created>1718693498666</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1718693498666</updated>
+    </task>
+    <task id="LOCAL-00014" summary="chore: change deleteTask method to delete because is more semantic.">
+      <option name="closed" value="true" />
+      <created>1718693550031</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1718693550031</updated>
+    </task>
+    <task id="LOCAL-00015" summary="chore: create service for create task.">
+      <option name="closed" value="true" />
+      <created>1718693597611</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1718693597611</updated>
+    </task>
+    <task id="LOCAL-00016" summary="chore: create service for delete task.">
+      <option name="closed" value="true" />
+      <created>1718693604599</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1718693604599</updated>
+    </task>
+    <task id="LOCAL-00017" summary="chore: create service for update a task.">
+      <option name="closed" value="true" />
+      <created>1718693622217</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1718693622217</updated>
+    </task>
+    <task id="LOCAL-00018" summary="chore: create an example of service of AdditionalTaskInfo.">
+      <option name="closed" value="true" />
+      <created>1718693668515</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1718693668515</updated>
+    </task>
+    <task id="LOCAL-00019" summary="chore: create service for retrieve information of task">
+      <option name="closed" value="true" />
+      <created>1718693711188</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1718693711188</updated>
+    </task>
+    <task id="LOCAL-00020" summary="chore: create service for task. This service is the gateway to all other task services.">
+      <option name="closed" value="true" />
+      <created>1718693853459</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1718693853459</updated>
+    </task>
+    <task id="LOCAL-00021" summary="chore: created integration with jpa, TaskJpaRepository">
+      <option name="closed" value="true" />
+      <created>1718693897992</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1718693897992</updated>
+    </task>
+    <task id="LOCAL-00022" summary="chore: created entity Task">
+      <option name="closed" value="true" />
+      <created>1718693947322</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1718693947322</updated>
+    </task>
+    <task id="LOCAL-00023" summary="chore: jpa adapter is created to integrate with domain layer">
+      <option name="closed" value="true" />
+      <created>1718693974735</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1718693974735</updated>
+    </task>
+    <task id="LOCAL-00024" summary="chore: created driver to test functionality of creating a task">
+      <option name="closed" value="true" />
+      <created>1718693997019</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1718693997019</updated>
+    </task>
+    <task id="LOCAL-00025" summary="chore: added readme">
+      <option name="closed" value="true" />
+      <created>1718694844534</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1718694844534</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore: create first project. Generic example of hexagonal architecture with spring boot." />
+    <MESSAGE value="feat: create task model." />
+    <MESSAGE value="feat: create model for aditional taks info: AdditionalTaskInfo." />
+    <MESSAGE value="chore: create input port in models for create task: CreateTask." />
+    <MESSAGE value="chore: create input port in models for delete a task: DeleteTask." />
+    <MESSAGE value="chore: create input port in models for retrive a task: RetriveTask." />
+    <MESSAGE value="chore: create input port in models for update a task: UpdateTask." />
+    <MESSAGE value="chore: create input port in models for retrive an additional info of task: RetriveAdditionalTaskInfo." />
+    <MESSAGE value="chore: create output port in models for repository of Task." />
+    <MESSAGE value="chore: create output port in models, create repository of Task." />
+    <MESSAGE value="chore: create output port in models, create repository of AdditionalTaskInfo." />
+    <MESSAGE value="chore: change port of application to 8080" />
+    <MESSAGE value="chore: added builder support by lombok" />
+    <MESSAGE value="chore: change deleteTask method to delete because is more semantic." />
+    <MESSAGE value="chore: create service for create task." />
+    <MESSAGE value="chore: create service for delete task." />
+    <MESSAGE value="chore: create service for update a task." />
+    <MESSAGE value="chore: create an example of service of AdditionalTaskInfo." />
+    <MESSAGE value="chore: create service for retrieve information of task" />
+    <MESSAGE value="chore: create service for task. This service is the gateway to all other task services." />
+    <MESSAGE value="chore: created integration with jpa, TaskJpaRepository" />
+    <MESSAGE value="chore: created entity Task" />
+    <MESSAGE value="chore: jpa adapter is created to integrate with domain layer" />
+    <MESSAGE value="chore: created driver to test functionality of creating a task" />
+    <MESSAGE value="chore: added readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: added readme" />
+  </component>
+</project>
