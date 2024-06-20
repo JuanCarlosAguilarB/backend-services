@@ -1,10 +1,13 @@
 package com.example.hexagonal.appication;
 
+import com.example.hexagonal.domain.models.UserCreatedRequest;
 import com.example.hexagonal.domain.models.User;
+import com.example.hexagonal.domain.models.UserResponse;
 import com.example.hexagonal.domain.ports.in.UserPort;
 import com.example.hexagonal.domain.ports.out.UserRepository;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalTime;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
@@ -19,18 +22,32 @@ public class UserUseCase implements UserPort {
     }
 
     @Override
-    public User create(User user) {
-        User savedUser = userRepository.save(user);
-        return savedUser;
+    public void create(UserCreatedRequest user) {
+
+        User userToCreate = User.builder()
+                .id(user.getId())
+                .username(user.getUsername())
+                .password(user.getPassword())
+                .email(user.getEmail())
+                .firstName(user.getFirstName())
+                .lastName(user.getLastName())
+                .isVerified(false)
+                .phoneNumber(user.getPhoneNumber())
+                .created(LocalTime.now())
+                .wasLogged(false)
+                .build();
+
+        User savedUser = userRepository.save(userToCreate);
+
     }
 
     @Override
-    public Optional<User> findById(UUID id) {
+    public Optional<UserResponse> findById(UUID id) {
         return Optional.empty();
     }
 
     @Override
-    public User update(User user) {
+    public UserResponse update(User user) {
         return null;
     }
 
@@ -40,7 +57,9 @@ public class UserUseCase implements UserPort {
     }
 
     @Override
-    public List<User> findAll() {
+    public List<UserResponse> findAll() {
         return List.of();
     }
+
+
 }
