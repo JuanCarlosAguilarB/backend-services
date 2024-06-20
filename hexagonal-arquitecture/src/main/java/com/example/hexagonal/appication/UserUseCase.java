@@ -3,6 +3,7 @@ package com.example.hexagonal.appication;
 import com.example.hexagonal.domain.models.UserCreatedRequest;
 import com.example.hexagonal.domain.models.User;
 import com.example.hexagonal.domain.models.UserResponse;
+import com.example.hexagonal.domain.ports.in.SecurityPort;
 import com.example.hexagonal.domain.ports.in.UserPort;
 import com.example.hexagonal.domain.ports.out.UserRepository;
 import org.springframework.stereotype.Service;
@@ -16,9 +17,11 @@ import java.util.UUID;
 public class UserUseCase implements UserPort {
 
     private final UserRepository userRepository;
+    private final SecurityPort securityPort;
 
-    public UserUseCase(UserRepository userRepository) {
+    public UserUseCase(UserRepository userRepository, SecurityPort securityPort) {
         this.userRepository = userRepository;
+        this.securityPort = securityPort;
     }
 
     @Override
@@ -27,7 +30,7 @@ public class UserUseCase implements UserPort {
         User userToCreate = User.builder()
                 .id(user.getId())
                 .username(user.getUsername())
-                .password(user.getPassword())
+                .password(securityPort.encodePassword(user.getPassword()))
                 .email(user.getEmail())
                 .firstName(user.getFirstName())
                 .lastName(user.getLastName())
