@@ -13,4 +13,5 @@ public interface UserRepository {
     public Optional<User> getUserById(UUID id);
     public Optional<User> updateUser(User user);
 
+    public User findByEmail(String email);
 }

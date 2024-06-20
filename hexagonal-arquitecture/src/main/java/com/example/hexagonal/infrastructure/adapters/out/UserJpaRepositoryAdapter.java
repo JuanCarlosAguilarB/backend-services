@@ -44,4 +44,10 @@ public class UserJpaRepositoryAdapter implements UserRepository {
     public Optional<User> updateUser(User user) {
         return Optional.empty();
     }
+
+    @Override
+    public User findByEmail(String email) {
+        User user = userJpaRepository.findByEmail(email);
+        return user;
+    }
 }
