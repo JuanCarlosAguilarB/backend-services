@@ -11,5 +11,5 @@ public interface AuthRepository {
 
     public void delete(UUID id);
     public Auth create(User user);
-
+    public Boolean isValid(String token);
 }
