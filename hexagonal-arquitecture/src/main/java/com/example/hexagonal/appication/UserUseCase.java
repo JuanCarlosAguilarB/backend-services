@@ -20,7 +20,8 @@ public class UserUseCase implements UserPort {
 
     @Override
     public User create(User user) {
-        return null;
+        User savedUser = userRepository.save(user);
+        return savedUser;
     }
 
     @Override
