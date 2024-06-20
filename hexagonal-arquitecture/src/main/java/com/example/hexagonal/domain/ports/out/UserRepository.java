@@ -8,7 +8,7 @@ import java.util.UUID;
 
 public interface UserRepository {
 
-    public void delete(Long id);
+    public void delete(UUID id);
     public User save(User user);
     public Optional<User> getUserById(UUID id);
     public Optional<User> updateUser(User user);
